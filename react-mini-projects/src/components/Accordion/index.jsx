@@ -21,14 +21,14 @@ const Accordion = () => {
     }
 
     setMultiple(copyMultiple);
-    console.log(multiple);
   };
-
+  
   return (
     <div className="wrapper">
       <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
         EnableMultiSelection
       </button>
+      
       <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem, index) => (
