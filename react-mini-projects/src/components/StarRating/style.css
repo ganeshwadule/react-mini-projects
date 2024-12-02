@@ -1,0 +1,13 @@
+.start-rating{
+    display: flex;
+    gap:20px;
+    
+}
+
+.active{
+    color:gold;;
+}
+
+.inactive{
+    color:black;;
+}
