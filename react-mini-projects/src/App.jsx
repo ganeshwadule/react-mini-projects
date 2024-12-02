@@ -14,7 +14,7 @@ function App() {
      {/* <ColorGenerator /> */}
     {/* <StarRating noOfStars={5}/> */}
      {/* <ImageSlider/> */}
-     <TikTakToe></TikTakToe>
+     {/*  */}
      </>
   )
 }
