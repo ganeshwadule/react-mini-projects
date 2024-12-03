@@ -30,14 +30,13 @@ const LoadMoreButton = () => {
     }
   };
 
-  
   useEffect(() => {
     fetchProducts();
   }, [count]);
 
-  useEffect(()=>{
-    if(products && products.length === 100)setDisableButton(true);
-  },[products]);
+  useEffect(() => {
+    if (products && products.length === 100) setDisableButton(true);
+  }, [products]);
 
   if (loading) {
     return <h3>Loading ...</h3>;
@@ -57,13 +56,10 @@ const LoadMoreButton = () => {
 
       <div className="btn-container">
         {/* <button disabled={count > 5}>Load More Button</button> */}
-        <button disabled={disableButton} onClick={() => setCount(count+1)}>
+        <button disabled={disableButton} onClick={() => setCount(count + 1)}>
           Load More Button
         </button>
-
-        
-            { disableButton && <h3>You have reached limit</h3>}
-        
+        {disableButton && <h3>You have reached limit</h3>}
       </div>
     </div>
   );
