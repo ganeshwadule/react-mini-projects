@@ -4,3 +4,4 @@ React mini projects for interview practice and clearing fundamental concept of r
 3. Image Slider
 4. Star Rating
 5. Load More Button
+6 . Theme Toggle Component
