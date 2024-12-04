@@ -5,7 +5,9 @@ import StarRating from './components/StarRating'
 import ImageSlider from './components/ImageSlider'
 import TikTakToe from './components/TikTakToe';
 import LoadMoreButton from './components/LoadMoreButton';
-import QRCodeGenerator from './components/QRCodeGenerator'
+import QRCodeGenerator from './components/QRCodeGenerator';
+import ThemeChange from "./components/ThemeChange";
+import menus from './components/TreeViewNavigation/data';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +20,8 @@ function App() {
      {/* <ImageSlider/> */}
      {/*  */}
      {/* <LoadMoreButton/> */}
-     <QRCodeGenerator/>
+     {/* <QRCodeGenerator/> */}
+     <ThemeChange/>
      </>
   )
 }

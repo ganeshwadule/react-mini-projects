@@ -1,0 +1,13 @@
+.light{
+    height: 100vh;
+    font-weight: 100vw;
+    color:black;
+    background-color: aliceblue;
+}
+
+.dark{
+    height: 100vh;
+    font-weight: 100vw;
+    color: white;
+    background-color: black;
+}
