@@ -1,0 +1,21 @@
+.element{
+    background-color: aqua;
+    width: 500px;
+    margin:10px;
+    padding:25px;
+    text-align: center;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.answer{
+    background-color: maroon;
+    width: 500px;
+    color: white;
+    font-size: larger;
+    padding: 23px;
+}

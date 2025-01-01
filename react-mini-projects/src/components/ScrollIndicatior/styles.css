@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-element{
+    top:0;
+    position: fixed;;
+    background-color: #63f0e6;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.progress-bar{
+    position: absolute;
+    bottom: 0;
+    height: 20px;;
+    background-color:#333 ;
+}
