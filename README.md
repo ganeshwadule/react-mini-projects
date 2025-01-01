@@ -5,4 +5,4 @@ ReactJS Mini projects for interview practice and clearing fundamental concept of
 4. Star Rating
 5. Load More Button
 6. Theme Toggle component
-7. Scroll Indicator
+7. Modern Scroll Indicator
