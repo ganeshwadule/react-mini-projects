@@ -9,6 +9,8 @@ import QRCodeGenerator from './components/QRCodeGenerator';
 import ThemeChange from "./components/ThemeChange";
 import menus from './components/TreeViewNavigation/data';
 import ScrollIndicator from './components/ScrollIndicatior'
+import tabs from './components/Tabs/tabs'
+import TabsTest from './components/Tabs/tabsTest'
 function App() {
   
   return (
@@ -22,8 +24,8 @@ function App() {
      {/* <LoadMoreButton/> */}
      {/* <QRCodeGenerator/> */}
      {/* <ThemeChange/> */}
-     <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
-  
+     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+      <TabsTest/>
      </>
   )
 }
