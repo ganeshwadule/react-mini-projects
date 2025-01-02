@@ -23,7 +23,7 @@ const tabsTest = () => {
     }
 
   return (
-   <Tab tabsContent={tabsContent} onChange={handleOnChange} />
+   <Tab tabsContent={tabsContent} handleOnChange={handleOnChange} />
   )
 }
 
