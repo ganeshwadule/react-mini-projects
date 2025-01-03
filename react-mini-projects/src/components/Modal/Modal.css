@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border:2px solid #333;
+    border-radius: 12px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.413);;
+    z-index: 10;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    top:50px;
+}
+
+.close-btn{
+    position: absolute;
+    top:0;
+    right:0;
+    border-radius: 12px;
+}

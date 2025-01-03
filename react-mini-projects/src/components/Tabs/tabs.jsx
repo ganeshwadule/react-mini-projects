@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import "./tabs.css"
-const tabs = ({tabsContent,onClick}) => {
+const tabs = ({tabsContent,handleOnChange}) => {
 
     const [currentTabIndex,setCurrentTabIndex] = useState(0);
     const handleOnClick = (index)=>{
       setCurrentTabIndex(index);
-        onClick(index);
+        handleOnChange(index); 
     }
   return (
     <div className="wrapper">
