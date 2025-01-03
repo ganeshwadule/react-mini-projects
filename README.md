@@ -7,3 +7,5 @@ ReactJS Mini projects for interview practice and clearing fundamental concept of
 6. Theme Toggle component
 7. Modern Scroll Indicator
 8. Tabs Component
+9. Modal Component
+    
