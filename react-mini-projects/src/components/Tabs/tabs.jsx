@@ -5,7 +5,7 @@ const tabs = ({tabsContent,handleOnChange}) => {
     const [currentTabIndex,setCurrentTabIndex] = useState(0);
     const handleOnClick = (index)=>{
       setCurrentTabIndex(index);
-        handleOnChange(index); 
+        handleOnChange(index); // call to Parent Componet
     }
   return (
     <div className="wrapper">
