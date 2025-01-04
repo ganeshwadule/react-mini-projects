@@ -12,6 +12,7 @@ import ScrollIndicator from './components/ScrollIndicatior'
 import tabs from './components/Tabs/tabs'
 import TabsTest from './components/Tabs/tabsTest'
 import ModalTest from './components/Modal/ModalTest'
+import GithubProfileFinder from './components/GithubProfileFinder/GithubProfileFinder'
 function App() {
   
   return (
@@ -27,7 +28,8 @@ function App() {
      {/* <ThemeChange/> */}
      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
       {/* <TabsTest/> */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+      <GithubProfileFinder/>
      </>
   )
 }

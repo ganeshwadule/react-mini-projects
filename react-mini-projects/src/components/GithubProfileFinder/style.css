@@ -1,0 +1,94 @@
+.card{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    /* border:1px solid rgba(0, 0, 0, 0.348); */
+    gap:10px;
+    position: relative;
+    border-radius: 24px;
+    /* box-shadow: 1px 1px 18px 4px #2a2a2d5e; */
+
+
+    background-color: rgb(48, 47, 47); /* Transparent white */
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  color: black; /* White text */
+  z-index: 10;
+  color:#ddd;
+}
+
+
+.profile-pic img{
+    width: 90px;
+    height: 90px;   
+    border-radius: 50%;
+    
+}
+
+.wrapper{
+    position: relative;
+  width: 100%;
+  height: 100vh; /* Full height to demonstrate positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #f0f0f0; */
+}
+
+.form-container {
+    position: relative; /* Keep button and input in flow */
+    z-index: 1; /* Ensure it's behind the card when the card is open */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between input and button */
+  }
+.profile-bio{
+    /* background-color: rgb(168, 165, 165); */
+    color: #ddd    ;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile-info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  gap: 10px; /* Space between the grid items */
+  padding: 10px; /* Optional padding around the container */
+  border: 1px solid #ddd; /* Optional styling */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.close-btn{
+    position: absolute;
+    top: 3;
+    right:3;
+    width: 25px;
+    height: 25px;
+}
+
+.profile-name a{
+    color:#1b1a1a;
+    font-size: 16px;
+}
+
+.card-container {
+    position: absolute;
+    top: 50%; /* Center vertically relative to the wrapper */
+    left: 50%; /* Center horizontally relative to the wrapper */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 12; /* Ensure it's above the input and button */
+    /* padding: 20px; */
+    border-radius: 10px;
+  }
+
+.profile-name a span{
+    font-size: 14px;
+    font-weight: 900;
+  }
