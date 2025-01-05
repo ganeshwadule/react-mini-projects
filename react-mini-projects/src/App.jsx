@@ -13,6 +13,7 @@ import tabs from './components/Tabs/tabs'
 import TabsTest from './components/Tabs/tabsTest'
 import ModalTest from './components/Modal/ModalTest'
 import GithubProfileFinder from './components/GithubProfileFinder/GithubProfileFinder'
+import SearchCompletion from './components/search-auto-complete'
 function App() {
   
   return (
@@ -29,7 +30,8 @@ function App() {
      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
       {/* <TabsTest/> */}
       {/* <ModalTest/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <SearchCompletion/>
      </>
   )
 }
