@@ -10,3 +10,4 @@ ReactJS Mini projects for interview practice and clearing fundamental concept of
 9. Modal Component
 10. Github Profile Finder
 11. Search Auto Completion
+12. Tic-Tac-Toe
