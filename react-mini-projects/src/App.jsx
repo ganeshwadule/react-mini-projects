@@ -3,7 +3,6 @@ import Accordion from './components/Accordion/Accordion'
 import ColorGenerator from './components/colorGenerator'
 import StarRating from './components/StarRating'
 import ImageSlider from './components/ImageSlider'
-import TikTakToe from './components/TikTakToe';
 import LoadMoreButton from './components/LoadMoreButton';
 import QRCodeGenerator from './components/QRCodeGenerator';
 import ThemeChange from "./components/ThemeChange";
@@ -14,6 +13,7 @@ import TabsTest from './components/Tabs/tabsTest'
 import ModalTest from './components/Modal/ModalTest'
 import GithubProfileFinder from './components/GithubProfileFinder/GithubProfileFinder'
 import SearchCompletion from './components/search-auto-complete'
+import TicTacToe from './components/TicTacToe/TicTacToe'
 function App() {
   
   return (
@@ -31,8 +31,9 @@ function App() {
       {/* <TabsTest/> */}
       {/* <ModalTest/> */}
       {/* <GithubProfileFinder/> */}
-      <SearchCompletion/>
-     </>
+      {/* <SearchCompletion/> */}
+      <TicTacToe/>
+    </>
   )
 }
 
